@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://saam-sheron.vercel.app/sitemap.xml
