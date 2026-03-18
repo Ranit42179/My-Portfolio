@@ -1,9 +1,9 @@
-# 🚀 Saam Sheron Portfolio
+# 🚀 Ranit Ghosh Portfolio
 
-Welcome to my portfolio repository! This project showcases my work as a **MERN Stack Developer** and highlights my projects, skills, and professional achievements.
+Welcome to my portfolio repository! This project showcases my work as a **Full Stack Developer** and highlights my projects, skills, and professional achievements.
 
 ## 🖥️ Live Portfolio  
-Check out the live version here: [**Saam Sheron Portfolio**](https://saam-sheron.vercel.app/)
+Check out the live version here: [**Ranit Ghosh Portfolio**]()
 
 ---
 
@@ -23,7 +23,7 @@ This is a **single-page portfolio** website built using modern web technologies.
 - **Tailwind CSS**: Utility-first CSS for responsive and modern styling.  
 - **Email.js**: For functional and backend-free contact forms.  
 - **React Scroll**: Smooth scrolling between portfolio sections.  
-- **Vercel**: Deployment platform for hosting.
+- **Render**: Deployment platform for hosting.
 
 ---
 
@@ -56,34 +56,23 @@ public/
 
 ---
 
-## 🎯 SEO & Accessibility
-- **Meta Tags**: Optimized title, description, and Open Graph tags for better ranking.  
-- **JSON-LD Schema**: Structured data for search engines.  
-- **Descriptive Alt Attributes**: Added for all images, such as:  
-  ```html
-  <img src="skyfreight.png" alt="SkyFreight - Air Cargo Transport Website" />
-  ```
-- **Fast Performance**: Optimized build with Vite for better Lighthouse scores.  
-
----
-
 ## 📧 Contact Me
 Feel free to reach out:  
-- **Portfolio**: [saam-sheron.vercel.app](https://saam-sheron.vercel.app/)  
-- **Email**: saamsallvin@gmail.com  
-- **LinkedIn**: [linkedin.com/in/saam-sheron](https://linkedin.com/in/saam-sheron)  
-- **GitHub**: [github.com/saam-rgb](https://github.com/saam-rgb)  
+- **Portfolio**: []
+- **Email**: ranitghosh42179@gmail.com  
+- **LinkedIn**: [https://www.linkedin.com/in/ranit--ghosh]
+- **GitHub**: [https://github.com/Ranit42179]
 
 ---
 
 ## 🚀 How to Run Locally
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/saam-rgb/saam-sheron.git
+   git clone https://github.com/Ranit42179/My-Portfolio.git
    ```
 2. Navigate to the project folder:  
    ```bash
-   cd saam-sheron
+   cd My-Portfolio
    ```
 3. Install dependencies:  
    ```bash
@@ -105,4 +94,4 @@ This project is **open-source** and available under the MIT License.
 
 ---
 
-### 🎨 Designed & Developed by [**Saam Sheron**](https://linkedin.com/in/saam-sheron)  
+### 🎨 Designed & Developed by [**Ranit Ghosh**]()  
