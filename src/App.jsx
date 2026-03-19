@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Resume from "./components/Resume.jsx";
 import Skill from "./components/Skill.jsx";
+import Chatbot from "./components/Chatbot.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Resume />
       <Contact />
       <Footer />
+      <Chatbot />
     </>
   );
 }

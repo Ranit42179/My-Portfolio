@@ -22,7 +22,7 @@ const HeroSection = () => {
             </p>
             {/* Call to Action Button */}
             <a
-              href="\assets\RanitCV.pdf"
+              href="\RanitCV.pdf"
               download="Ranit's_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
