@@ -71,6 +71,17 @@ const Navbar = () => {
             </li>
             <li className="py-2 lg:py-0">
               <Link
+                to="skills"
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="block hover:text-secondary cursor-pointer transition duration-300"
+                onClick={() => setIsOpen(false)}>
+                Skills
+              </Link>
+            </li>
+            <li className="py-2 lg:py-0">
+              <Link
                 to="contact"
                 smooth={true}
                 offset={-70}
