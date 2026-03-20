@@ -12,12 +12,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <About />
-      <Skill />
-      <Resume />
-      <Contact />
-      <Footer />
+      <div className="pt-24 md:pt-28">
+        <HeroSection />
+        <About />
+        <Skill />
+        <Resume />
+        <Contact />
+        <Footer />
+      </div>
       <Chatbot />
     </>
   );

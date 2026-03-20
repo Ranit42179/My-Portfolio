@@ -48,6 +48,7 @@ const Chatbot = () => {
         mode: "cors",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json, text/plain, */*",
         },
         body: JSON.stringify({ question: trimmed }),
       });
@@ -57,8 +58,17 @@ const Chatbot = () => {
         throw new Error(`Backend error: ${response.status} ${text}`);
       }
 
-      const data = await response.json();
-      const answer = data.answer || data.reply || data.message || "I got your question, but no answer was returned.";
+      const contentType = response.headers.get("content-type") || "";
+      let answer = "I got your question, but no answer was returned.";
+
+      if (contentType.includes("application/json")) {
+        const data = await response.json();
+        answer = data.answer || data.reply || data.message || JSON.stringify(data);
+      } else {
+        const text = await response.text();
+        answer = text?.trim() || answer;
+      }
+
       setMessages((prev) => [...prev, { id: Date.now() + Math.random(), sender: "bot", text: answer }]);
     } catch (err) {
       console.error(err);
@@ -84,8 +94,8 @@ const Chatbot = () => {
           <div className="w-[320px] md:w-[380px] bg-white shadow-2xl rounded-2xl border border-slate-200 overflow-hidden mb-2 text-sm">
             <div className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white px-4 py-3 flex items-center justify-between">
               <div>
-                <div className="font-semibold">AI Chat</div>
-                <div className="text-xs text-indigo-100">Powered by your backend endpoint</div>
+                <div className="font-semibold">AI ChatBot</div>
+                <div className="text-xs text-indigo-100">Powered by Gemini</div>
               </div>
               <button
                 onClick={() => setOpen(false)}

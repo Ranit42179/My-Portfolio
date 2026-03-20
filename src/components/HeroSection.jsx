@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "../assets/images/ranit1.jpg.jpeg";
+import HomeImage from "../assets/images/ranit4.jpg.jpeg";
 
 const HeroSection = () => {
   return (
@@ -37,9 +37,9 @@ const HeroSection = () => {
             <img
               src={HomeImage}
               alt="Ranit Ghosh - Full Stack Developer"
-              className="w-full h-auto rounded-lg shadow-lg"
+              className="w-full max-w-full h-auto rounded-lg shadow-lg mx-auto md:mx-0 object-cover"
               title="Ranit Ghosh"
-              style={{height:"600px",width:"600px",marginLeft:"80px"}}
+              style={{ maxHeight: "520px" }}
             />
           </div>
         </div>
