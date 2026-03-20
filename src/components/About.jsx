@@ -42,8 +42,7 @@ const About = () => {
                 maintainable code.
               </p>
               <p className="mb-4 text-justify">
-                Currently, I am working as a part of a collaborative team at{" "}
-                <strong>Croma</strong> project at <strong>TCS</strong>.
+                Currently, I am working as a part of a collaborative team at <strong>TCS</strong>.
                 I enjoy contributing to open-source projects and always seek
                 opportunities to learn and grow as a developer.
               </p>

@@ -42,6 +42,7 @@ const Resume = () => {
 
               <ul className="list-disc pl-6 space-y-2">
                 <li>Microsoft Certified: Azure Fundamentals (AZ-900)</li>
+                <li>Microsoft Certified: Azure AI Engineer Associate (AI-102)</li>
                 <li>Hacker Rank Software Engineer Certificate</li>
                 <li>Hacker Rank Software Engineer Intern Certificate</li>
                 <li>Hacker Rank Frontend Developer (React) Certificate</li>
