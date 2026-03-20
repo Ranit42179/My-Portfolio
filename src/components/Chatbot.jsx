@@ -6,7 +6,7 @@ const Chatbot = () => {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { id: 1, sender: "bot", text: "Hi! Ask me anything. I will fetch answers from the backend." },
+    { id: 1, sender: "bot", text: "Hi! Ask me anything. I will fetch answers for you." },
   ]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -24,7 +24,7 @@ const Chatbot = () => {
     if (!trimmed) return;
 
     if (!API_URL) {
-      const err = "Chatbot API URL is not set. Add VITE_CHATBOT_API_URL to your .env file.";
+      // const err = "Chatbot API URL is not set. Add VITE_CHATBOT_API_URL to your .env file.";
       console.error(err);
       setError(err);
       setLoading(false);
@@ -55,7 +55,7 @@ const Chatbot = () => {
 
       if (!response.ok) {
         const text = await response.text();
-        throw new Error(`Backend error: ${response.status} ${text}`);
+        // throw new Error(`Backend error: ${response.status} ${text}`);
       }
 
       const contentType = response.headers.get("content-type") || "";
