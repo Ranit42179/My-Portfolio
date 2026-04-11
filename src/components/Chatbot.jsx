@@ -139,7 +139,7 @@ const Chatbot = () => {
                   {loading ? "Sending..." : "Send"}
                 </button>
               </div>
-              {error && <div className="text-xs text-red-600 mt-1">{error}</div>}
+              {/* {error && <div className="text-xs text-red-600 mt-1">{error}</div>} */}
             </form>
           </div>
         )}
